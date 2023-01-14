@@ -11,12 +11,13 @@ namespace Inheritance
 
         public Reptile()
         {
-            string movementType = "crawls";
-            int legs = 4;
-            string skinType = "scales";
-            bool livesInWater = true;
+           
         }
 
+        public string MovementType { get; set; } = "crawls";
+        public int Legs { get; set; } = 4;
+        public string SkinType { get; set; } = "scales";
+        public bool LivesInWater { get; set; } = true;
 
 
     }
