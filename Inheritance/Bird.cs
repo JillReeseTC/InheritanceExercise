@@ -11,11 +11,13 @@ namespace Inheritance
 
         public Bird()
         {
-            MovementType = "flies";
-            Legs = 2;
-            SkinType = "feathers"
+            
         }
 
+        public string MovementType { get; set; }
+        public int Legs { get; set; }
+        public string SkinType { get; set; }
+        public bool HasWings { get; set; }
 
 
     }

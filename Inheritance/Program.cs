@@ -43,9 +43,19 @@ namespace Inheritance
 
             critterList.Add(snake);
 
+            string moves = snake.MovementType;
+            Console.WriteLine(moves);
+
+
+
             foreach (var creature in critterList)
             {
-                Console.WriteLine($"A {creature} {creature.MovementType} ");
+               if (Animal.GetType().Name) == Bird ) 
+               {
+
+               }
+                    
+
             }
             
 

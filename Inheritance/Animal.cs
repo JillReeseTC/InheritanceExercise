@@ -11,15 +11,12 @@ namespace Inheritance
         public Animal() 
         { 
         
-        } 
+        }
 
-        public bool MovesIndependently {get; set; } = true;
-
-        public bool HasEyes { get; set; } = true;
-        
+        public bool MovesIndependently { get; set; } = true;
         public bool HasParents { get; set; } = true;
-
-        public string SkinType { get; set; }
+        public bool CanHunt { get; set; } = true;
+        public bool CanSee { get; set; } = true;
 
 
 
