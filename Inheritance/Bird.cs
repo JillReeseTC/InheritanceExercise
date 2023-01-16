@@ -14,6 +14,7 @@ namespace Inheritance
             
         }
 
+        public string Name { get; set; }    
         public string MovementType { get; set; }
         public int Legs { get; set; }
         public string SkinType { get; set; }

@@ -14,6 +14,7 @@ namespace Inheritance
            
         }
 
+        public string Name { get; set; }    
         public string MovementType { get; set; } = "crawls";
         public int Legs { get; set; } = 4;
         public string SkinType { get; set; } = "scales";
